@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image-Gallery</title>
+    <style>
+        body{
+        background-color: aqua;
+        padding: 0;
+        margin: 0;
+        }
+        h1{
+            text-align: center;
+            font-size: 90px;
+            color: white;
+            background-image: url(images/head1.webp);
+            background-size: cover;
+            padding-left: 15px;
+            padding-top: 74px;
+            padding-bottom: 40px;
+            margin: 0;
+        }
+        .images{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        nav ul{
+            display: flex;
+            gap: 170px;
+            justify-content: center;
+            background-image: url(images/img1.webp);
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li a{
+            list-style: none;
+            text-decoration: none;
+            font-size: 30px;
+        }
+        li{
+            list-style: none;
+        }
+        li:hover{
+            color:black;
+            transition: 10s
+        }
+        img:hover{
+            zoom: 110%;
+            transition: 4s;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nature</h1>
+    <br>
+    <nav>
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="cities.html">Cities</a></li>
+            <li><a href="ai.html">AI Images</a></li>
+        </ul>
+    </nav><br>
+    <div class="images">
+    <img src="images/img11.jpg" alt="" width="350px" height="300px">
+    <img src="images/img12.jpg" alt="" width="350px" height="300px">
+    <img src="images/img14.jpg" alt="" width="350px" height="300px">
+    <img src="images/img15.avif" alt="" width="350px" height="300px">
+    </div>
+</body>
+</html>

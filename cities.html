@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+    <title>Image-Gallery</title>
+    <style>
+        body{
+        background-color: aqua;
+        padding: 0;
+        margin: 0;
+        }
+        h1{
+            text-align: center;
+            font-size: 90px;
+            color: white;
+            background-image: url(images/img1.webp);
+            background-position: center;
+            padding-left: 15px;
+            padding-top: 74px;
+            padding-bottom: 40px;
+            margin: 0;
+        }
+        .images{
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+        nav ul{
+            display: flex;
+            gap: 170px;
+            align-items: center;
+            justify-content: center;
+            background-image: url(images/img1.webp);
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li a{
+            list-style: none;
+            text-decoration: none;
+            font-size: 30px;
+        }
+        li{
+            list-style: none;
+        }
+        li:hover{
+            color:black;
+            transition: 10s
+        }
+        img:hover{
+            zoom: 110%;
+            transition: 4s;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cities</h1>
+    <br>
+    <nav>
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="nature.html">Nature</a></li>
+            <li><a href="ai.html">AI Images</a></li>
+        </ul>
+    </nav><br>
+    <div class="images">
+    <img src="images/img1.webp" alt="" width="350px" height="300px">
+    <img src="images/img2.webp" alt="" width="350px" height="300px">
+    <img src="images/img3.jpg" alt="" width="350px" height="300px">
+    <img src="images/img4.jpg" alt="" width="350px" height="300px">
+    </div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+        background-color: aqua;
+        padding: 0;
+        margin: 0;
+        }
+        .images{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+        }
+        h1{
+            text-align: center;
+            font-size: 90px;
+            color: white;
+            background-image: url(images/img10.jpg);
+            background-size: cover;
+            padding-left: 15px;
+            padding-top: 74px;
+            padding-bottom: 40px;
+            margin: 0;
+        }
+        nav ul{
+            display: flex;
+            gap: 170px;
+            align-items: center;
+            justify-content: center;
+            background-image: url(images/img1.webp);
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li a{
+            list-style: none;
+            text-decoration: none;
+            font-size: 30px;
+        }
+        li{
+            list-style: none;
+        }
+        li:hover{
+            border: 2px solid transparent;
+            box-shadow:white;   
+        }
+        img:hover{
+            zoom: 110%;
+            transition:ease-in-out;
+            transition-duration: 5s;
+        }
+    </style>
+</head>
+<body>
+    <h1>AI Images</h1><br>
+    <nav>
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="nature.html">Nature</a></li>
+            <li><a href="cities.html">Cities</a></li>
+        </ul>
+    </nav><br>
+    <div class="images">
+    <img src="images/img6.jpg" alt="" width="350px" height="300px">
+    <img src="images/img7.avif" alt="" width="350px" height="300px">
+    <img src="images/img8.webp" alt="" width="350px" height="300px">
+    <img src="images/img9.webp" alt="" width="350px" height="300px">
+    <img src="" alt="">
+    <img src="" alt="">
+    </div>
+</body>
+</html>
